@@ -1,11 +1,11 @@
 ## [Máster en Ingeniería Web por la Universidad Politécnica de Madrid (miw-upm)](http://miw.etsisi.upm.es)
 ## Ingeniería Web: Visión General (IWVG) DevOps
-> Este proyecto es una Plantilla de apoyo docente de la asignatura.
+> Este proyecto corresponde a la práctica DevOps de IWVG.
 
 ### Estado del código
 [![DevOps](https://github.com/ybrooks08/iwvg-devops-brooks-yosbel/actions/workflows/test-sonar.yml/badge.svg)](https://github.com/ybrooks08/iwvg-devops-brooks-yosbel/actions/workflows/test-sonar.yml)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ybrooks08_iwvg-devops-brooks-yosbel&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=ybrooks08_iwvg-devops-brooks-yosbel)
-[![BCH compliance](https://bettercodehub.com/edge/badge/ybrooks08/iwvg-devops-brooks-yosbel?branch=master)](https://bettercodehub.com/results/ybrooks08/iwvg-devops-brooks-yosbel)
+[![BCH compliance](https://bettercodehub.com/edge/badge/ybrooks08/iwvg-devops-brooks-yosbel?branch=develop)](https://bettercodehub.com/results/ybrooks08/iwvg-devops-brooks-yosbel)
 [![Heroku broken](https://iwvg-devops.herokuapp.com/system/version-badge)](https://iwvg-devops.herokuapp.com/swagger-ui.html)
 
 ### :gear: Instalación del proyecto
