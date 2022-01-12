@@ -59,11 +59,16 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
+
     @Override
     public String toString() {
         return "Fraction{" +
                 "numerator=" + numerator +
                 ", denominator=" + denominator +
                 '}';
+    }
+
+    public boolean canBeDividedByTwo(int number){
+        return number % 2 == 0;
     }
 }
