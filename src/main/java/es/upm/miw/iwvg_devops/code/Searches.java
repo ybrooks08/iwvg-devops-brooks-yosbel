@@ -11,4 +11,11 @@ public class Searches {
                 .map(User::getId)
                 .limit(1);
     }
+
+    public Stream<String> findUserIdByAllProperFraction() {
+        return new UsersDatabase().findAll()
+                .filter(user -> user.getFractions().stream()
+                        .anyMatch(fraction -> fraction.getNumerator() < fraction.getDenominator()))
+                .map(User::getId);
+    }
 }
