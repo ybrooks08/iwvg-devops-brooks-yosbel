@@ -19,9 +19,9 @@ public class Searches {
                 .map(User::getId);
     }
 
-    public Stream<Double> findDecimalImproperFractionByUserName(String name) {
+    public Stream<Double> findDecimalImproperFractionByUserName(String userName) {
         return new UsersDatabase().findAll()
-                .filter(user -> name.equals(user.getName()))
+                .filter(user -> userName.equals(user.getName()))
                 .flatMap(user -> user.getFractions().stream()
                         .filter(i -> i.getNumerator() > i.getDenominator())
                 )
