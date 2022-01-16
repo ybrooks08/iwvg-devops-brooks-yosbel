@@ -8,6 +8,7 @@ public class Searches {
         return new UsersDatabase().findAll()
                 .filter(user -> user.getFractions().stream()
                         .anyMatch(fraction -> fraction.getNumerator() < fraction.getDenominator()))
-                .map(User::getId);
+                .map(User::getId)
+                .limit(1);
     }
 }

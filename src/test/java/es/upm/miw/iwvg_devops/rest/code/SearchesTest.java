@@ -12,7 +12,7 @@ public class SearchesTest {
 
     @Test
     void testFindUserIdBySomeProperFraction() {
-        assertEquals(List.of("1", "2", "3", "5"), new Searches().findUserIdBySomeProperFraction()
+        assertEquals(List.of("1"), new Searches().findUserIdBySomeProperFraction()
                 .collect(Collectors.toList()));
     }
 }
